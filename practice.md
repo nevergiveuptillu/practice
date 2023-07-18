@@ -30,8 +30,10 @@
       - mail
       - message 
       - date time information
-- git add . -- all changes to staging directory
+- git add . -- all changes to staging directory 
+- git log --oneline
+- HEAD --- latest commit which is done by us
+- git allways shows the latest commited info 
 - 
-
 
    
