@@ -1,0 +1,37 @@
+# Commands:
+- 3 areas of working -- Working tree
+                     -- Staging area
+                     -- Local repository
+- git init: (Intialize a new repository)
+----------
+- git init
+- PS D:\git> git config --global user.name "shivasomanath"
+- PS D:\git> git config --global user.email "shivasomanath7@outlook.com"
+- git status: shows the status of working tree and changes
+-------------
+- git status  >>> Red -- Working tree
+- git add: add the changes to working tree to staging area
+---------
+- git add one.txt  >>> Green -- Staging area (opened cotton box)
+- git commit: this command commits the changes from staging area to repo
+------------
+- git commit -m  "message" >>> Local Repository (Closed Cottonbox)
+  - every commit given own info 
+      - Commit Id
+      - username
+      - mail
+      - message 
+      - date time information
+- git log : shows the commit inforamtion 
+------------
+- git log gives the information of commit
+      - Commit Id
+      - username
+      - mail
+      - message 
+      - date time information
+- git add . -- all changes to staging directory
+- 
+
+
+   
