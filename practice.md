@@ -34,6 +34,9 @@
 - git log --oneline
 - HEAD --- latest commit which is done by us
 - git allways shows the latest commited info 
+- git log(one space) : information of older commits
+- git checkout commit id - we can move present to past && past - present
+- git checkout master
 - 
-
+- 
    
