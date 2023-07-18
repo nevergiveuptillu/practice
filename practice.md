@@ -32,11 +32,34 @@
       - date time information
 - git add . -- all changes to staging directory 
 - git log --oneline
-- HEAD --- latest commit which is done by us
+- HEAD -- what is the working tree is showing while working with git 
 - git allways shows the latest commited info 
 - git log(one space) : information of older commits
 - git checkout commit id - we can move present to past && past - present
 - git checkout master
-- 
-- 
-   
+- master :allways shows the latest commit
+- git never understand folders allways deals with files
+- git add . -means current directory changes 
+- git add -A (or) git add --all >> 
+- add with 4---
+     - git add <file.path>
+     - git add . (current directory)
+     - git add -A (All )
+     - git add -u (only modified files)
+- touch {1..100}.txt
+- git rm --cached test/somanath.word (staging area to working tree untracked)
+- git restore --staged 1.txt (restore the file add sessions)
+ - removing changes from working tree 
+  Working tree 
+    - modified  
+       - git restore 
+    - untracked
+       - git clean -fd (all the untracked files are removed at a time)
+# Branches:
+-----------
+ - Every git have a Default branch called as --Master
+ - branch will always refers to the latest commit is working tree looking at
+ - Head pointer we can move use moving checkout command
+ - 
+ - 
+ - 
